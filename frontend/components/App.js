@@ -62,7 +62,7 @@ function App() {
         console.log(err.message)
       })
     }
-     // fetchPhoto()
+     //fetchPhoto()
   
   setApod({
       "date": "2024-02-21",
@@ -73,8 +73,6 @@ function App() {
       "title": "Seagull Nebula over Pinnacles' Peak",
       "url": "https://apod.nasa.gov/apod/image/2402/SeagullPinnacles_Venkatraman_960.jpg"
     })   
-
-  
   }, [])
   if (!apod) return 'Fetching Photo of the Day...'
   return (

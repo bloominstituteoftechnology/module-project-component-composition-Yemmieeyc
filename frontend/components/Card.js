@@ -1,4 +1,5 @@
 import React from "react";
+import Figure from "./Figure";
 export default function Card ({title, text, imageUrl, date}) {
   return ( 
      <div className='card'>
